@@ -63,39 +63,39 @@ export const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-[85vh] flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-slate-50/50">
+    <div className="min-h-[85vh] flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-[#F7F5F0]">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center space-y-2">
         <Link to="/" className="inline-flex items-center gap-2 group">
           <img
-            src="/logo.jpg"
+            src="/logo.png"
             alt="RoomNest Logo"
-            className="w-10 h-10 rounded-xl object-contain border border-slate-200 shadow-xs mx-auto"
+            className="w-12 h-12 rounded-xl object-contain border border-[#E1E6EB] shadow-xs mx-auto bg-white p-1"
           />
         </Link>
-        <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight font-sans">
+        <h2 className="text-2xl font-extrabold text-[#142B45] tracking-tight font-sans">
           Sign In to RoomNest
         </h2>
-        <p className="text-xs text-slate-500">
+        <p className="text-xs text-[#667085]">
           Access your Pune accommodation portal, bookings, or property management
         </p>
       </div>
 
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-md px-4">
-        <div className="bg-white py-8 px-6 shadow-sm border border-slate-200 rounded-2xl sm:px-10 space-y-6">
+        <div className="bg-white py-8 px-6 shadow-sm border border-[#E1E6EB] rounded-2xl sm:px-10 space-y-6">
           {/* Role Selection Tabs */}
           <div className="space-y-1.5">
-            <label className="block text-xs font-bold text-slate-700">Select Portal Role:</label>
-            <div className="grid grid-cols-3 gap-1.5 p-1 bg-slate-100 rounded-xl">
+            <label className="block text-xs font-bold text-[#243244]">Select Portal Role:</label>
+            <div className="grid grid-cols-3 gap-1.5 p-1 bg-[#E8EDF2] rounded-xl">
               <button
                 type="button"
                 onClick={() => setSelectedRole('tenant')}
                 className={`py-2 px-2 text-xs font-semibold rounded-lg transition flex items-center justify-center gap-1 ${
                   selectedRole === 'tenant'
-                    ? 'bg-white text-teal-800 shadow-2xs font-bold'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-white text-[#142B45] shadow-xs font-bold'
+                    : 'text-[#667085] hover:text-[#243244]'
                 }`}
               >
-                <Users className="w-3.5 h-3.5 text-teal-600" />
+                <Users className="w-3.5 h-3.5 text-[#168C83]" />
                 <span>Tenant</span>
               </button>
               <button
@@ -103,11 +103,11 @@ export const LoginPage: React.FC = () => {
                 onClick={() => setSelectedRole('owner')}
                 className={`py-2 px-2 text-xs font-semibold rounded-lg transition flex items-center justify-center gap-1 ${
                   selectedRole === 'owner'
-                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-white text-[#142B45] shadow-xs font-bold'
+                    : 'text-[#667085] hover:text-[#243244]'
                 }`}
               >
-                <Building2 className="w-3.5 h-3.5 text-emerald-600" />
+                <Building2 className="w-3.5 h-3.5 text-[#168C83]" />
                 <span>PG Owner</span>
               </button>
               <button
@@ -115,15 +115,15 @@ export const LoginPage: React.FC = () => {
                 onClick={() => setSelectedRole('admin')}
                 className={`py-2 px-2 text-xs font-semibold rounded-lg transition flex items-center justify-center gap-1 ${
                   selectedRole === 'admin'
-                    ? 'bg-white text-purple-800 shadow-2xs font-bold'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-white text-[#142B45] shadow-xs font-bold'
+                    : 'text-[#667085] hover:text-[#243244]'
                 }`}
               >
-                <ShieldCheck className="w-3.5 h-3.5 text-purple-600" />
+                <ShieldCheck className="w-3.5 h-3.5 text-[#168C83]" />
                 <span>Admin</span>
               </button>
             </div>
-            <p className="text-[11px] text-slate-400 pt-0.5">
+            <p className="text-[11px] text-[#667085] pt-0.5">
               {selectedRole === 'tenant' && 'For students & IT professionals searching or managing PG bookings.'}
               {selectedRole === 'owner' && 'For verified Pune property managers listing rooms and handling inquiries.'}
               {selectedRole === 'admin' && 'For compliance auditors reviewing listings and KYC records.'}
@@ -131,7 +131,7 @@ export const LoginPage: React.FC = () => {
           </div>
 
           {error && (
-            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-center gap-2">
+            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-[#B42318] text-xs flex items-center gap-2">
               <AlertCircle className="w-4 h-4 shrink-0" />
               <span>{error}</span>
             </div>
@@ -140,7 +140,7 @@ export const LoginPage: React.FC = () => {
           <form onSubmit={handleSubmit} className="space-y-4 text-xs">
             {/* Email Field */}
             <div>
-              <label className="block font-bold text-slate-700 mb-1">Email Address</label>
+              <label className="block font-bold text-[#243244] mb-1">Email Address</label>
               <div className="relative">
                 <input
                   type="email"
@@ -153,18 +153,18 @@ export const LoginPage: React.FC = () => {
                       ? 'e.g. suresh.owner@roomnest.in'
                       : 'e.g. admin@roomnest.in'
                   }
-                  className="w-full pl-9 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition"
+                  className="w-full pl-9 pr-3 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <Mail className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <Mail className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
               </div>
             </div>
 
             {/* Password Field */}
             <div>
               <div className="flex items-center justify-between mb-1">
-                <label className="block font-bold text-slate-700">Password</label>
-                <Link to="/forgot-password" className="text-[11px] text-teal-700 hover:underline">
+                <label className="block font-bold text-[#243244]">Password</label>
+                <Link to="/forgot-password" className="text-[11px] text-[#168C83] hover:underline font-semibold">
                   Forgot password?
                 </Link>
               </div>
@@ -174,14 +174,14 @@ export const LoginPage: React.FC = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Enter your password"
-                  className="w-full pl-9 pr-10 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition"
+                  className="w-full pl-9 pr-10 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <Lock className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <Lock className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-3 text-slate-400 hover:text-slate-600"
+                  className="absolute right-3 top-3 text-[#667085] hover:text-[#243244]"
                 >
                   {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                 </button>
@@ -193,7 +193,7 @@ export const LoginPage: React.FC = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-xs transition disabled:opacity-50"
+                className="w-full bg-[#142B45] hover:bg-[#0D1B2A] text-white font-bold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-xs transition disabled:opacity-50"
               >
                 {loading ? (
                   <>

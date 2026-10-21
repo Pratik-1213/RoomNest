@@ -180,44 +180,44 @@ export const PriceEstimatorPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Header */}
-      <div className="pb-4 border-b border-slate-200">
-        <div className="inline-flex items-center gap-1.5 bg-teal-50 text-teal-800 border border-teal-200 px-3 py-1 rounded-full text-xs font-semibold mb-2">
-          <Cpu className="w-3.5 h-3.5 text-teal-600" />
-          <span>Python FastAPI + scikit-learn Inference Engine</span>
+      <div className="pb-4 border-b border-[#E1E6EB]">
+        <div className="inline-flex items-center gap-1.5 bg-[#E8EDF2] text-[#142B45] border border-[#E1E6EB] px-3 py-1 rounded-full text-xs font-semibold mb-2">
+          <Cpu className="w-3.5 h-3.5 text-[#168C83]" />
+          <span>Pune Housing Data & ML Inference Engine</span>
         </div>
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          Explainable Pune PG Rent Estimator
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-[#142B45] tracking-tight font-sans">
+          Pune Student & PG Rent Estimator
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500 max-w-2xl mt-1">
-          Estimate realistic monthly rent for paying guest accommodation in Pune based on locality indices, room privacy, air conditioning, and daily food mess inclusion.
+        <p className="text-xs sm:text-sm text-[#667085] max-w-2xl mt-1">
+          Estimate realistic monthly rent for paying guest accommodation across Pune based on locality indices, room privacy, air conditioning, and mess inclusions.
         </p>
       </div>
 
       {/* Main Grid: Form Left, Results Right */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left: Input Form (7 Cols) */}
-        <div className="lg:col-span-7 bg-white p-6 rounded-xl border border-slate-200 shadow-xs space-y-6">
-          <h2 className="text-base font-bold text-slate-900 border-b pb-2 flex items-center gap-2">
-            <Sliders className="w-4 h-4 text-teal-600" />
+        <div className="lg:col-span-7 bg-white p-6 rounded-2xl border border-[#E1E6EB] shadow-xs space-y-6">
+          <h2 className="text-base font-bold text-[#142B45] border-b border-[#E1E6EB] pb-3 flex items-center gap-2">
+            <Sliders className="w-4 h-4 text-[#168C83]" />
             Accommodation Parameters
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
             {/* Locality */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1">Pune Locality</label>
+              <label className="block font-bold text-[#243244] mb-1">Pune Locality</label>
               <select
                 value={locality}
                 onChange={(e) => setLocality(e.target.value)}
-                className="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500"
+                className="w-full p-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83]"
               >
-                <option value="Hinjewadi">Hinjewadi (Phases 1-3)</option>
+                <option value="Shivajinagar">Shivajinagar / COEP Campus Corridor</option>
                 <option value="Kothrud">Kothrud (MIT / Karve Rd)</option>
+                <option value="Hinjewadi">Hinjewadi (Phases 1-3)</option>
                 <option value="Viman Nagar">Viman Nagar (Symbiosis)</option>
                 <option value="Wakad">Wakad</option>
                 <option value="Baner">Baner</option>
                 <option value="Kharadi">Kharadi (EON Free Zone)</option>
-                <option value="Shivajinagar">Shivajinagar / COEP Area</option>
                 <option value="Aundh">Aundh</option>
                 <option value="Bavdhan">Bavdhan</option>
                 <option value="Hadapsar">Hadapsar</option>
@@ -227,11 +227,11 @@ export const PriceEstimatorPage: React.FC = () => {
 
             {/* Room Sharing */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1">Room Sharing Type</label>
+              <label className="block font-bold text-[#243244] mb-1">Room Sharing Type</label>
               <select
                 value={roomType}
                 onChange={(e) => setRoomType(e.target.value)}
-                className="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500"
+                className="w-full p-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83]"
               >
                 <option value="Single Room">Single Room (Private Occupancy)</option>
                 <option value="Double Sharing">Double Sharing (2 Beds)</option>
@@ -242,11 +242,11 @@ export const PriceEstimatorPage: React.FC = () => {
 
             {/* Food Plan */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1">Food / Mess Inclusions</label>
+              <label className="block font-bold text-[#243244] mb-1">Food / Mess Inclusions</label>
               <select
                 value={foodPlan}
                 onChange={(e) => setFoodPlan(e.target.value)}
-                className="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500"
+                className="w-full p-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83]"
               >
                 <option value="Two Meals (Breakfast + Dinner)">Two Meals (Breakfast + Dinner)</option>
                 <option value="Three Meals">Three Meals (Breakfast + Lunch + Dinner)</option>
@@ -257,11 +257,11 @@ export const PriceEstimatorPage: React.FC = () => {
 
             {/* Furnishing */}
             <div>
-              <label className="block font-bold text-slate-800 mb-1">Furnishing Status</label>
+              <label className="block font-bold text-[#243244] mb-1">Furnishing Status</label>
               <select
                 value={furnishing}
                 onChange={(e) => setFurnishing(e.target.value)}
-                className="w-full p-2.5 bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-teal-500"
+                className="w-full p-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83]"
               >
                 <option value="Fully Furnished">Fully Furnished (Bed, Wardrobe, Desk)</option>
                 <option value="Semi-Furnished">Semi-Furnished (Bed & Wardrobe)</option>
@@ -272,44 +272,44 @@ export const PriceEstimatorPage: React.FC = () => {
 
           {/* Amenity Toggles */}
           <div>
-            <label className="block text-xs font-bold text-slate-800 mb-2">Key Amenities Included</label>
+            <label className="block text-xs font-bold text-[#243244] mb-2">Key Amenities Included</label>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
-              <label className={`p-2.5 border rounded-lg flex items-center gap-2 cursor-pointer transition ${acAvailable ? 'bg-teal-50 border-teal-400 text-teal-900 font-bold' : 'bg-slate-50 border-slate-200'}`}>
+              <label className={`p-2.5 border rounded-xl flex items-center gap-2 cursor-pointer transition ${acAvailable ? 'bg-[#EBF8F4] border-[#168C83] text-[#142B45] font-bold' : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085]'}`}>
                 <input
                   type="checkbox"
                   checked={acAvailable}
                   onChange={(e) => setAcAvailable(e.target.checked)}
-                  className="accent-teal-600"
+                  className="accent-[#168C83]"
                 />
                 <span>Air Conditioner</span>
               </label>
 
-              <label className={`p-2.5 border rounded-lg flex items-center gap-2 cursor-pointer transition ${wifiAvailable ? 'bg-teal-50 border-teal-400 text-teal-900 font-bold' : 'bg-slate-50 border-slate-200'}`}>
+              <label className={`p-2.5 border rounded-xl flex items-center gap-2 cursor-pointer transition ${wifiAvailable ? 'bg-[#EBF8F4] border-[#168C83] text-[#142B45] font-bold' : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085]'}`}>
                 <input
                   type="checkbox"
                   checked={wifiAvailable}
                   onChange={(e) => setWifiAvailable(e.target.checked)}
-                  className="accent-teal-600"
+                  className="accent-[#168C83]"
                 />
                 <span>Fiber Wi-Fi</span>
               </label>
 
-              <label className={`p-2.5 border rounded-lg flex items-center gap-2 cursor-pointer transition ${laundryAvailable ? 'bg-teal-50 border-teal-400 text-teal-900 font-bold' : 'bg-slate-50 border-slate-200'}`}>
+              <label className={`p-2.5 border rounded-xl flex items-center gap-2 cursor-pointer transition ${laundryAvailable ? 'bg-[#EBF8F4] border-[#168C83] text-[#142B45] font-bold' : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085]'}`}>
                 <input
                   type="checkbox"
                   checked={laundryAvailable}
                   onChange={(e) => setLaundryAvailable(e.target.checked)}
-                  className="accent-teal-600"
+                  className="accent-[#168C83]"
                 />
                 <span>Laundry Machine</span>
               </label>
 
-              <label className={`p-2.5 border rounded-lg flex items-center gap-2 cursor-pointer transition ${parkingAvailable ? 'bg-teal-50 border-teal-400 text-teal-900 font-bold' : 'bg-slate-50 border-slate-200'}`}>
+              <label className={`p-2.5 border rounded-xl flex items-center gap-2 cursor-pointer transition ${parkingAvailable ? 'bg-[#EBF8F4] border-[#168C83] text-[#142B45] font-bold' : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085]'}`}>
                 <input
                   type="checkbox"
                   checked={parkingAvailable}
                   onChange={(e) => setParkingAvailable(e.target.checked)}
-                  className="accent-teal-600"
+                  className="accent-[#168C83]"
                 />
                 <span>Parking</span>
               </label>
@@ -317,11 +317,11 @@ export const PriceEstimatorPage: React.FC = () => {
           </div>
 
           {/* Commute Sliders */}
-          <div className="space-y-4 pt-2 border-t border-slate-100">
+          <div className="space-y-4 pt-2 border-t border-[#E1E6EB]">
             <div>
               <div className="flex justify-between text-xs mb-1">
-                <span className="font-bold text-slate-800">Distance to nearest IT Park / Commercial Campus</span>
-                <span className="font-bold text-teal-700">{distanceToITPark} km</span>
+                <span className="font-bold text-[#243244]">Distance to nearest IT Park / Commercial Campus</span>
+                <span className="font-bold text-[#168C83]">{distanceToITPark} km</span>
               </div>
               <input
                 type="range"
@@ -330,14 +330,14 @@ export const PriceEstimatorPage: React.FC = () => {
                 step={0.5}
                 value={distanceToITPark}
                 onChange={(e) => setDistanceToITPark(Number(e.target.value))}
-                className="w-full accent-teal-600 cursor-pointer"
+                className="w-full accent-[#168C83] cursor-pointer"
               />
             </div>
 
             <div>
               <div className="flex justify-between text-xs mb-1">
-                <span className="font-bold text-slate-800">Distance to nearest Metro Station</span>
-                <span className="font-bold text-teal-700">{distanceToMetro} km</span>
+                <span className="font-bold text-[#243244]">Distance to nearest Metro Station</span>
+                <span className="font-bold text-[#168C83]">{distanceToMetro} km</span>
               </div>
               <input
                 type="range"
@@ -346,7 +346,7 @@ export const PriceEstimatorPage: React.FC = () => {
                 step={0.2}
                 value={distanceToMetro}
                 onChange={(e) => setDistanceToMetro(Number(e.target.value))}
-                className="w-full accent-teal-600 cursor-pointer"
+                className="w-full accent-[#168C83] cursor-pointer"
               />
             </div>
           </div>
@@ -354,14 +354,14 @@ export const PriceEstimatorPage: React.FC = () => {
           <button
             onClick={calculateRent}
             disabled={loading}
-            className="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold text-xs sm:text-sm py-3 px-4 rounded-lg shadow-sm transition flex items-center justify-center gap-2"
+            className="w-full bg-[#142B45] hover:bg-[#0D1B2A] text-white font-bold text-xs sm:text-sm py-3 px-4 rounded-xl shadow-xs transition flex items-center justify-center gap-2 disabled:opacity-50"
           >
             {loading ? (
               <span>Computing Model Inference...</span>
             ) : (
               <>
-                <Sparkles className="w-4 h-4" />
-                Calculate Estimated Monthly Rent
+                <Sparkles className="w-4 h-4 text-[#168C83]" />
+                <span>Calculate Estimated Monthly Rent</span>
               </>
             )}
           </button>
@@ -370,9 +370,9 @@ export const PriceEstimatorPage: React.FC = () => {
         {/* Right: Results Display (5 Cols) */}
         <div className="lg:col-span-5 space-y-6">
           {prediction && (
-            <div className="bg-white rounded-xl border border-slate-200 shadow-md p-6 space-y-6">
+            <div className="bg-white rounded-2xl border border-[#E1E6EB] shadow-xs p-6 space-y-6">
               {/* Rent Estimate Badge */}
-              <div className="p-5 bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-xl text-center space-y-2">
+              <div className="p-6 bg-[#142B45] text-white rounded-2xl text-center space-y-2">
                 <div className="text-xs font-semibold uppercase tracking-wider text-teal-300">
                   Estimated Monthly Rent
                 </div>
@@ -381,43 +381,43 @@ export const PriceEstimatorPage: React.FC = () => {
                   <span className="text-xs text-slate-300 font-normal"> / mo</span>
                 </div>
                 <div className="inline-block bg-white/10 px-3 py-1 rounded-full text-xs text-slate-200">
-                  Estimated 80% Range: <span className="font-bold text-teal-300">₹{prediction.lower_bound_inr.toLocaleString('en-IN')} – ₹{prediction.upper_bound_inr.toLocaleString('en-IN')}</span>
+                  Estimated Range: <span className="font-bold text-teal-300">₹{prediction.lower_bound_inr.toLocaleString('en-IN')} – ₹{prediction.upper_bound_inr.toLocaleString('en-IN')}</span>
                 </div>
               </div>
 
               {/* Explainable Waterfall Factors */}
               <div>
-                <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider mb-3">
+                <h3 className="text-xs font-bold text-[#142B45] uppercase tracking-wider mb-3">
                   Key Pricing Drivers (Explainable Breakdown)
                 </h3>
                 <div className="space-y-2.5">
                   {prediction.explanation_factors.map((factor, i) => (
-                    <div key={i} className="p-3 bg-slate-50 rounded-lg border border-slate-100 text-xs">
-                      <div className="flex justify-between items-center font-bold text-slate-800">
+                    <div key={i} className="p-3 bg-[#F7F5F0] rounded-xl border border-[#E1E6EB] text-xs">
+                      <div className="flex justify-between items-center font-bold text-[#142B45]">
                         <span>{factor.factor}</span>
-                        <span className="text-teal-700">{factor.impact}</span>
+                        <span className="text-[#168C83]">{factor.impact}</span>
                       </div>
-                      <p className="text-[11px] text-slate-500 mt-0.5">{factor.detail}</p>
+                      <p className="text-[11px] text-[#667085] mt-0.5">{factor.detail}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               {/* Locality Benchmark */}
-              <div className="p-3 bg-teal-50 border border-teal-200 rounded-lg text-xs flex items-center justify-between">
+              <div className="p-3.5 bg-[#EBF8F4] border border-[#A7E2CE] rounded-xl text-xs flex items-center justify-between">
                 <div>
-                  <span className="text-teal-900 font-bold block">{locality} Locality Index</span>
-                  <span className="text-teal-700 text-[11px]">Median double sharing benchmark</span>
+                  <span className="text-[#142B45] font-bold block">{locality} Locality Index</span>
+                  <span className="text-[#168C83] text-[11px]">Median double sharing benchmark</span>
                 </div>
-                <span className="font-extrabold text-teal-950 text-sm">
+                <span className="font-extrabold text-[#142B45] text-sm">
                   ₹{prediction.locality_average_inr.toLocaleString('en-IN')}/mo
                 </span>
               </div>
 
               {/* Caveat & Disclaimer Box */}
-              <div className="p-3 bg-amber-50 border border-amber-200 rounded-lg text-amber-900 text-[11px] leading-relaxed">
-                <span className="font-bold flex items-center gap-1 mb-1">
-                  <AlertCircle className="w-3.5 h-3.5 text-amber-700" /> Statistical Estimation Caveat:
+              <div className="p-3 bg-[#F7F5F0] border border-[#E1E6EB] rounded-xl text-[#667085] text-[11px] leading-relaxed">
+                <span className="font-bold flex items-center gap-1 mb-1 text-[#243244]">
+                  <AlertCircle className="w-3.5 h-3.5 text-[#168C83]" /> Statistical Estimation Note:
                 </span>
                 {prediction.disclaimer}
               </div>
@@ -425,39 +425,39 @@ export const PriceEstimatorPage: React.FC = () => {
               {/* Compare with Real Listings CTA */}
               <Link
                 to={`/pgs?locality=${encodeURIComponent(locality)}`}
-                className="w-full bg-teal-700 hover:bg-teal-800 text-white font-bold text-xs py-2.5 px-4 rounded-lg shadow-xs hover:shadow transition flex items-center justify-center gap-2"
+                className="w-full bg-[#142B45] hover:bg-[#0D1B2A] text-white font-bold text-xs py-2.5 px-4 rounded-xl shadow-xs transition flex items-center justify-center gap-2"
               >
-                Find Similar Active PGs in {locality} <ArrowRight className="w-3.5 h-3.5" />
+                Find Active PGs in {locality} <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
           )}
 
           {/* Model Registry & Evaluation Card */}
-          <div className="bg-white p-5 rounded-xl border border-slate-200 text-xs space-y-3">
-            <div className="flex items-center gap-1.5 font-bold text-slate-800 border-b pb-2">
-              <Database className="w-4 h-4 text-slate-500" />
+          <div className="bg-white p-5 rounded-2xl border border-[#E1E6EB] text-xs space-y-3 shadow-xs">
+            <div className="flex items-center gap-1.5 font-bold text-[#142B45] border-b border-[#E1E6EB] pb-2">
+              <Database className="w-4 h-4 text-[#168C83]" />
               <span>Model Governance & Training Audit</span>
             </div>
-            <div className="grid grid-cols-2 gap-2 text-slate-600">
+            <div className="grid grid-cols-2 gap-2 text-[#667085]">
               <div>
-                <span className="text-slate-400 block text-[10px]">Algorithm</span>
-                <span className="font-semibold text-slate-800">HistGradientBoosting</span>
+                <span className="text-[#667085] block text-[10px]">Algorithm</span>
+                <span className="font-semibold text-[#142B45]">HistGradientBoosting</span>
               </div>
               <div>
-                <span className="text-slate-400 block text-[10px]">Version</span>
-                <span className="font-semibold text-slate-800">v1.2.0-Production</span>
+                <span className="text-[#667085] block text-[10px]">Version</span>
+                <span className="font-semibold text-[#142B45]">v1.2.0-Production</span>
               </div>
               <div>
-                <span className="text-slate-400 block text-[10px]">Baseline Comparison</span>
-                <span className="font-semibold text-emerald-700">+4.8% over median</span>
+                <span className="text-[#667085] block text-[10px]">Baseline Comparison</span>
+                <span className="font-semibold text-[#237A57]">+4.8% over median</span>
               </div>
               <div>
-                <span className="text-slate-400 block text-[10px]">Dataset Sample</span>
-                <span className="font-semibold text-slate-800">9,750 Pune records</span>
+                <span className="text-[#667085] block text-[10px]">Dataset Sample</span>
+                <span className="font-semibold text-[#142B45]">9,750 Pune records</span>
               </div>
             </div>
-            <p className="text-[11px] text-slate-500 pt-1 border-t">
-              Trained on cleaned <code className="text-slate-700 font-mono">roomnest_pune_pg_owner_listings.csv</code> with 5-fold cross-validation and locality slicing.
+            <p className="text-[11px] text-[#667085] pt-1 border-t border-[#E1E6EB]">
+              Trained on verified Pune PG inventory with 5-fold cross-validation and locality slicing.
             </p>
           </div>
         </div>

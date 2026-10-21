@@ -390,55 +390,55 @@ export const RoommateFinderPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Hero Header */}
-      <div className="bg-gradient-to-r from-teal-50/80 via-white to-emerald-50/70 text-slate-900 rounded-2xl p-6 sm:p-8 shadow-sm relative overflow-hidden border border-teal-200/80">
+      <div className="bg-white text-[#243244] rounded-2xl p-6 sm:p-8 shadow-xs relative overflow-hidden border border-[#E1E6EB]">
         <div className="max-w-3xl space-y-3 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-100/70 text-teal-900 border border-teal-200 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5 text-teal-700" />
-            Pune Co-Living Compatibility & Flatmate Matchmaker
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E8EDF2] text-[#142B45] border border-[#E1E6EB] text-xs font-semibold">
+            <Users className="w-3.5 h-3.5 text-[#168C83]" />
+            Pune Co-Living Compatibility & Student Flatmate Matchmaker
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
+          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#142B45] font-sans">
             Find Your Ideal Pune PG Roommate
           </h1>
-          <p className="text-sm text-slate-600 leading-relaxed font-normal">
+          <p className="text-sm text-[#667085] leading-relaxed font-normal">
             Co-living works best when sleep cycles, study hours, food preferences, and cleanliness habits align.
             Compare your profile against active Pune seekers or evaluate mutual compatibility before reserving a shared room.
           </p>
           <div className="flex flex-wrap gap-2.5 pt-1 text-xs">
-            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> 10 Behavioral & Lifestyle Vectors
+            <span className="flex items-center gap-1.5 bg-[#F7F5F0] px-3 py-1.5 rounded-xl border border-[#E1E6EB] text-[#243244] font-medium shadow-2xs">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#237A57]" /> 10 Behavioral & Lifestyle Vectors
             </span>
-            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+            <span className="flex items-center gap-1.5 bg-[#F7F5F0] px-3 py-1.5 rounded-xl border border-[#E1E6EB] text-[#243244] font-medium shadow-2xs">
               <Zap className="w-3.5 h-3.5 text-amber-600" /> Hobby & Schedule Synergy
             </span>
-            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
-              <Building2 className="w-3.5 h-3.5 text-teal-600" /> Direct 2-Sharing PG Pairing
+            <span className="flex items-center gap-1.5 bg-[#F7F5F0] px-3 py-1.5 rounded-xl border border-[#E1E6EB] text-[#243244] font-medium shadow-2xs">
+              <Building2 className="w-3.5 h-3.5 text-[#168C83]" /> Direct 2-Sharing PG Pairing
             </span>
           </div>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="flex border-b border-slate-200">
+      <div className="flex border-b border-[#E1E6EB]">
         <button
           onClick={() => setActiveTab('matchmaker')}
           className={`pb-3 px-4 text-sm font-bold border-b-2 flex items-center gap-2 transition ${
             activeTab === 'matchmaker'
-              ? 'border-teal-600 text-teal-700'
-              : 'border-transparent text-slate-500 hover:text-slate-800'
+              ? 'border-[#142B45] text-[#142B45]'
+              : 'border-transparent text-[#667085] hover:text-[#142B45]'
           }`}
         >
-          <Sliders className="w-4 h-4" />
+          <Sliders className="w-4 h-4 text-[#168C83]" />
           Side-by-Side Matchmaker Calculator
         </button>
         <button
           onClick={() => setActiveTab('directory')}
           className={`pb-3 px-4 text-sm font-bold border-b-2 flex items-center gap-2 transition ${
             activeTab === 'directory'
-              ? 'border-teal-600 text-teal-700'
-              : 'border-transparent text-slate-500 hover:text-slate-800'
+              ? 'border-[#142B45] text-[#142B45]'
+              : 'border-transparent text-[#667085] hover:text-[#142B45]'
           }`}
         >
-          <Users className="w-4 h-4" />
+          <Users className="w-4 h-4 text-[#168C83]" />
           Browse Pune Flatmate Profiles ({FEATURED_PROFILES.length})
         </button>
       </div>

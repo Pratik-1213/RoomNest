@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- House Roof & Chimney in Deep Navy -->
+  <path d="M 346 102 L 388 102 L 388 162 L 346 128 Z" fill="#142B45"/>
+  <path d="M 256 60 L 86 196 L 160 256 L 160 216 L 256 138 L 352 216 L 352 268 L 426 208 Z" fill="#142B45"/>
+
+  <!-- House Body / White Space -->
+  <path d="M 160 206 L 256 128 L 352 206 L 352 320 L 160 320 Z" fill="#FFFFFF"/>
+
+  <!-- 4 Teal Window Panes (2x2 Grid) -->
+  <rect x="231" y="158" width="22" height="22" rx="4" fill="#168C83"/>
+  <rect x="259" y="158" width="22" height="22" rx="4" fill="#168C83"/>
+  <rect x="231" y="186" width="22" height="22" rx="4" fill="#168C83"/>
+  <rect x="259" y="186" width="22" height="22" rx="4" fill="#168C83"/>
+
+  <!-- Navy Arched Doorway with Doorknob -->
+  <path d="M 220 250 A 36 36 0 0 1 292 250 L 292 320 L 220 320 Z" fill="#142B45"/>
+  <circle cx="275" cy="280" r="5" fill="#FFFFFF"/>
+
+  <!-- Cradling Location Pin / Nest in Deep Teal -->
+  <!-- Left Wing -->
+  <path d="M 80 220 C 76 270 96 324 140 366 C 182 406 230 448 256 476 C 240 440 210 398 170 364 C 130 330 110 286 112 230 Z" fill="#168C83"/>
+  <!-- Right Wing -->
+  <path d="M 432 220 C 436 270 416 324 372 366 C 330 406 282 448 256 476 C 272 440 302 398 342 364 C 382 330 402 286 400 230 Z" fill="#168C83"/>
+  <!-- Base Pin Cup -->
+  <path d="M 98 252 C 120 350 200 440 256 480 C 312 440 392 350 414 252 C 390 320 320 380 256 392 C 192 380 122 320 98 252 Z" fill="#168C83"/>
+  <!-- Inner White Leaf Swoosh Ribbons -->
+  <path d="M 104 306 Q 210 376 340 334 Q 220 354 116 330 Z" fill="#FFFFFF"/>
+  <path d="M 408 306 Q 302 376 172 334 Q 292 354 396 330 Z" fill="#FFFFFF"/>
+</svg>

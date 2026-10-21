@@ -8,21 +8,21 @@ export const DataCaveatBanner: React.FC = () => {
   if (dismissed) return null;
 
   return (
-    <div className="bg-emerald-50/90 border-b border-emerald-200/80 text-emerald-950 text-xs px-4 py-2 transition-all">
+    <div className="bg-[#E8EDF2] border-b border-[#E1E6EB] text-[#243244] text-xs px-4 py-2 transition-all">
       <div className="max-w-7xl mx-auto flex items-start sm:items-center justify-between gap-3">
         <div className="flex items-start sm:items-center gap-2 flex-1">
-          <AlertCircle className="w-4 h-4 text-emerald-700 shrink-0 mt-0.5 sm:mt-0" />
-          <div className="leading-snug text-slate-800">
-            <span className="font-bold text-slate-900">Pune Tenant Guarantee:</span>{' '}
-            100% physically verified properties, zero hidden brokerage, direct owner agreements, and fair rent benchmarks across Hinjewadi, Kothrud, Baner, and Viman Nagar.
-            <Link to="/legal/terms" className="underline ml-1.5 font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-0.5">
-              Verification Standards <ExternalLink className="w-3 h-3" />
+          <AlertCircle className="w-4 h-4 text-[#168C83] shrink-0 mt-0.5 sm:mt-0" />
+          <div className="leading-snug text-[#243244]">
+            <span className="font-bold text-[#142B45]">COEP & Pune Student Housing:</span>{' '}
+            Verified student rooms and PG accommodations with transparent deposits, direct owner contact, and zero brokerage across Shivajinagar, Kothrud, Hinjewadi, and Viman Nagar.
+            <Link to="/legal/terms" className="underline ml-1.5 font-semibold text-[#168C83] hover:text-[#142B45] inline-flex items-center gap-0.5">
+              Housing Standards <ExternalLink className="w-3 h-3" />
             </Link>
           </div>
         </div>
         <button
           onClick={() => setDismissed(true)}
-          className="text-amber-700 hover:text-amber-950 p-1.5 rounded-md hover:bg-amber-100 transition shrink-0"
+          className="text-[#667085] hover:text-[#142B45] p-1.5 rounded-md hover:bg-[#E1E6EB] transition shrink-0"
           title="Dismiss notice"
           aria-label="Dismiss notice"
         >

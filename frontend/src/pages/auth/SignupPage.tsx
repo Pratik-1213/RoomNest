@@ -35,39 +35,39 @@ export const SignupPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-[85vh] flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-slate-50/50">
+    <div className="min-h-[85vh] flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-[#F7F5F0]">
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center space-y-2">
         <Link to="/" className="inline-flex items-center gap-2 group">
           <img
-            src="/logo.jpg"
+            src="/logo.png"
             alt="RoomNest Logo"
-            className="w-10 h-10 rounded-xl object-contain border border-slate-200 shadow-xs mx-auto"
+            className="w-12 h-12 rounded-xl object-contain border border-[#E1E6EB] shadow-xs mx-auto bg-white p-1"
           />
         </Link>
-        <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight font-sans">
+        <h2 className="text-2xl font-extrabold text-[#142B45] tracking-tight font-sans">
           Create Your RoomNest Account
         </h2>
-        <p className="text-xs text-slate-500">
-          Join Pune's premier paying guest accommodation & flatmate platform
+        <p className="text-xs text-[#667085]">
+          Join Pune's premier student accommodation & flatmate discovery platform
         </p>
       </div>
 
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-md px-4">
-        <div className="bg-white py-8 px-6 shadow-sm border border-slate-200 rounded-2xl sm:px-10 space-y-6">
+        <div className="bg-white py-8 px-6 shadow-sm border border-[#E1E6EB] rounded-2xl sm:px-10 space-y-6">
           {/* Account Role Selector */}
           <div>
-            <label className="block text-xs font-bold text-slate-700 mb-2">Registering Account Type:</label>
+            <label className="block text-xs font-bold text-[#243244] mb-2">Registering Account Type:</label>
             <div className="grid grid-cols-2 gap-2.5">
               <button
                 type="button"
                 onClick={() => setRole('tenant')}
                 className={`py-2.5 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 ${
                   role === 'tenant'
-                    ? 'bg-teal-50 border-teal-500 text-teal-800 ring-1 ring-teal-500'
-                    : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+                    ? 'bg-teal-50 border-[#168C83] text-[#142B45] ring-1 ring-[#168C83]'
+                    : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085] hover:bg-[#E8EDF2]'
                 }`}
               >
-                <Users className="w-4 h-4 text-teal-600" />
+                <Users className="w-4 h-4 text-[#168C83]" />
                 <span>Tenant / Student</span>
               </button>
               <button
@@ -75,15 +75,15 @@ export const SignupPage: React.FC = () => {
                 onClick={() => setRole('owner')}
                 className={`py-2.5 px-3 rounded-xl border text-xs font-bold transition flex items-center justify-center gap-1.5 ${
                   role === 'owner'
-                    ? 'bg-emerald-50 border-emerald-500 text-emerald-800 ring-1 ring-emerald-500'
-                    : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+                    ? 'bg-teal-50 border-[#168C83] text-[#142B45] ring-1 ring-[#168C83]'
+                    : 'bg-[#F7F5F0] border-[#E1E6EB] text-[#667085] hover:bg-[#E8EDF2]'
                 }`}
               >
-                <Building2 className="w-4 h-4 text-emerald-600" />
+                <Building2 className="w-4 h-4 text-[#168C83]" />
                 <span>PG Property Owner</span>
               </button>
             </div>
-            <p className="text-[11px] text-slate-400 mt-1.5">
+            <p className="text-[11px] text-[#667085] mt-1.5">
               {role === 'tenant' 
                 ? 'Search, shortlist, and book verified Pune PGs with transparent costs.'
                 : 'Publish Pune listings, reply to inquiries, and manage vacancy.'}
@@ -91,7 +91,7 @@ export const SignupPage: React.FC = () => {
           </div>
 
           {error && (
-            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-center gap-2">
+            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-[#B42318] text-xs flex items-center gap-2">
               <AlertCircle className="w-4 h-4 shrink-0" />
               <span>{error}</span>
             </div>
@@ -99,73 +99,73 @@ export const SignupPage: React.FC = () => {
 
           <form onSubmit={handleSignup} className="space-y-4 text-xs">
             <div>
-              <label className="block font-bold text-slate-700 mb-1">Full Legal Name</label>
+              <label className="block font-bold text-[#243244] mb-1">Full Legal Name</label>
               <div className="relative">
                 <input
                   type="text"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
                   placeholder="e.g. Tanmay Shinde"
-                  className="w-full pl-9 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 transition"
+                  className="w-full pl-9 pr-3 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <User className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <User className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
               </div>
             </div>
 
             <div>
-              <label className="block font-bold text-slate-700 mb-1">Email Address</label>
+              <label className="block font-bold text-[#243244] mb-1">Email Address</label>
               <div className="relative">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="name@example.com"
-                  className="w-full pl-9 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 transition"
+                  className="w-full pl-9 pr-3 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <Mail className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <Mail className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
               </div>
             </div>
 
             <div>
-              <label className="block font-bold text-slate-700 mb-1">Contact Phone (WhatsApp)</label>
+              <label className="block font-bold text-[#243244] mb-1">Contact Phone (WhatsApp)</label>
               <div className="relative">
                 <input
                   type="tel"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   placeholder="+91 98000 00000"
-                  className="w-full pl-9 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 transition"
+                  className="w-full pl-9 pr-3 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <Phone className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <Phone className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
               </div>
             </div>
 
             <div>
-              <label className="block font-bold text-slate-700 mb-1">Create Password</label>
+              <label className="block font-bold text-[#243244] mb-1">Create Password</label>
               <div className="relative">
                 <input
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="At least 6 characters"
-                  className="w-full pl-9 pr-3 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-slate-900 focus:bg-white focus:ring-2 focus:ring-teal-500 transition"
+                  className="w-full pl-9 pr-3 py-2.5 bg-[#F7F5F0]/60 border border-[#E1E6EB] rounded-xl text-[#243244] focus:bg-white focus:ring-2 focus:ring-[#168C83] focus:border-[#168C83] transition"
                   required
                 />
-                <Lock className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
+                <Lock className="w-4 h-4 text-[#667085] absolute left-3 top-3" />
               </div>
             </div>
 
-            <p className="text-[11px] text-slate-500 leading-relaxed pt-1">
-              By creating an account, you agree to RoomNest's Terms of Service and Privacy Policy. Role permissions are enforced via PostgreSQL Row-Level Security.
+            <p className="text-[11px] text-[#667085] leading-relaxed pt-1">
+              By creating an account, you agree to RoomNest's Terms of Service and Privacy Policy. Role permissions are enforced securely.
             </p>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-2.5 px-4 rounded-xl shadow-xs transition flex items-center justify-center gap-2"
+              className="w-full bg-[#142B45] hover:bg-[#0D1B2A] text-white font-bold py-2.5 px-4 rounded-xl shadow-xs transition flex items-center justify-center gap-2 disabled:opacity-50"
             >
               {loading ? (
                 <>
@@ -181,9 +181,9 @@ export const SignupPage: React.FC = () => {
             </button>
           </form>
 
-          <div className="text-center text-xs text-slate-600 pt-2 border-t border-slate-100">
+          <div className="text-center text-xs text-[#667085] pt-2 border-t border-[#E1E6EB]">
             Already have an account?{' '}
-            <Link to="/login" className="text-teal-700 font-bold hover:underline">
+            <Link to="/login" className="text-[#168C83] font-bold hover:underline">
               Sign In here
             </Link>
           </div>
