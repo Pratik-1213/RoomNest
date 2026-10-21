@@ -1,0 +1,152 @@
+{
+  "source_file": "roomnest_pune_pg_owner_listings.csv",
+  "total_rows_inspected": 10000,
+  "valid_rows_identified": 9450,
+  "total_rejected_rows": 550,
+  "rejection_sample": [
+    {
+      "row_index": 28,
+      "pg_listing_id": "100029",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 32,
+      "pg_listing_id": "100033",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 38,
+      "pg_listing_id": "100039",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 48,
+      "pg_listing_id": "100049",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 85,
+      "pg_listing_id": "100086",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 89,
+      "pg_listing_id": "100090",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 108,
+      "pg_listing_id": "100109",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 124,
+      "pg_listing_id": "100125",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 131,
+      "pg_listing_id": "100132",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 153,
+      "pg_listing_id": "100154",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent",
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 170,
+      "pg_listing_id": "100171",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 181,
+      "pg_listing_id": "100182",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 200,
+      "pg_listing_id": "100201",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 206,
+      "pg_listing_id": "100207",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 216,
+      "pg_listing_id": "100217",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 236,
+      "pg_listing_id": "100237",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 247,
+      "pg_listing_id": "100248",
+      "rejection_reasons": [
+        "Missing or non-positive monthly rent"
+      ]
+    },
+    {
+      "row_index": 295,
+      "pg_listing_id": "100296",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 344,
+      "pg_listing_id": "100345",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    },
+    {
+      "row_index": 347,
+      "pg_listing_id": "100348",
+      "rejection_reasons": [
+        "available_beds exceeds total_beds"
+      ]
+    }
+  ],
+  "imported_demo_fixtures": 40,
+  "environment": "demo_prototype",
+  "data_caveat": "Imported rows are flagged with is_demo=True and displayed with data-caveat banner in accordance with specification."
+}
