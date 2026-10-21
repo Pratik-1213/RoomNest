@@ -1,0 +1,11 @@
+{
+  "name": "roomnest-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RoomNest Pune PG Discovery and Management Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "ml": "python -m uvicorn app:app --port 8001 --reload"
+  }
+}
