@@ -50,9 +50,9 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
           loading="lazy"
         />
 
-        {/* Gender Policy Badge */}
-        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-          <span className={`px-2 py-0.5 rounded text-[11px] font-semibold tracking-wide ${
+        {/* Gender Policy & Trust Badge (Max width prevents collision with shortlist heart) */}
+        <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5 max-w-[70%] flex-wrap">
+          <span className={`px-2 py-0.5 rounded text-[11px] font-semibold tracking-wide shrink-0 ${
             listing.gender_policy === 'Girls'
               ? 'bg-purple-100 text-purple-900 border border-purple-200'
               : listing.gender_policy === 'Boys'
@@ -63,11 +63,11 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
           </span>
 
           {listing.is_demo ? (
-            <span className="badge-demo px-2 py-0.5 rounded text-[10px] font-semibold">
-              Prototype Demo
+            <span className="badge-demo px-1.5 py-0.5 rounded text-[10px] font-semibold shrink-0">
+              Demo
             </span>
           ) : (
-            <span className="badge-verified px-2 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1">
+            <span className="badge-verified px-1.5 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1 shrink-0">
               <ShieldCheck className="w-3 h-3 text-emerald-600" /> Verified
             </span>
           )}
@@ -79,7 +79,7 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
             e.preventDefault();
             toggleShortlist(listing.id);
           }}
-          className={`absolute top-3 right-3 p-2 rounded-full transition shadow-xs ${
+          className={`absolute top-2.5 right-2.5 p-2 rounded-full transition shadow-xs z-10 ${
             isShortlisted
               ? 'bg-rose-50 text-rose-600 hover:bg-rose-100'
               : 'bg-white/90 backdrop-blur-xs text-slate-500 hover:text-rose-600 hover:bg-white'
@@ -90,14 +90,14 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
           <Heart className={`w-4 h-4 ${isShortlisted ? 'fill-rose-600' : ''}`} />
         </button>
 
-        {/* Room Type Pill */}
-        <div className="absolute bottom-3 left-3 bg-slate-900/80 backdrop-blur-xs text-white text-[11px] font-medium px-2.5 py-1 rounded-md">
-          {listing.room_types.join(' • ')}
-        </div>
-
-        {/* Available Beds badge */}
-        <div className="absolute bottom-3 right-3 bg-white/90 text-slate-900 text-[11px] font-semibold px-2 py-0.5 rounded">
-          {listing.available_beds} {listing.available_beds === 1 ? 'bed' : 'beds'} left
+        {/* Clean bottom image overlays with strict sizing */}
+        <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between pointer-events-none gap-2">
+          <div className="bg-slate-900/80 backdrop-blur-xs text-white text-[11px] font-medium px-2 py-0.5 rounded truncate max-w-[65%]">
+            {listing.room_types[0] || 'Room'}
+          </div>
+          <div className="bg-white/95 text-slate-900 text-[11px] font-semibold px-2 py-0.5 rounded shadow-xs shrink-0">
+            {listing.available_beds} {listing.available_beds === 1 ? 'bed' : 'beds'}
+          </div>
         </div>
       </div>
 
@@ -105,12 +105,12 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
       <div className="p-4 flex-1 flex flex-col justify-between">
         <div>
           {/* Rating and Locality */}
-          <div className="flex items-center justify-between text-xs text-slate-500 mb-1">
-            <span className="flex items-center gap-1 font-medium text-slate-700">
-              <MapPin className="w-3.5 h-3.5 text-teal-600" />
-              {listing.locality}, Pune
+          <div className="flex items-center justify-between text-xs text-slate-500 mb-1 gap-2">
+            <span className="flex items-center gap-1 font-medium text-slate-700 truncate">
+              <MapPin className="w-3.5 h-3.5 text-teal-600 shrink-0" />
+              <span className="truncate">{listing.locality}, Pune</span>
             </span>
-            <div className="flex items-center gap-1 bg-amber-50 text-amber-900 px-1.5 py-0.5 rounded border border-amber-200/60 font-semibold text-[11px]">
+            <div className="flex items-center gap-1 bg-amber-50 text-amber-900 px-1.5 py-0.5 rounded border border-amber-200/60 font-semibold text-[11px] shrink-0">
               <Star className="w-3 h-3 fill-amber-500 text-amber-500" />
               <span>{listing.average_rating}</span>
               <span className="text-slate-400 font-normal">({listing.review_count})</span>
@@ -119,20 +119,20 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
 
           {/* PG Title */}
           <Link to={`/pgs/${listing.id}`}>
-            <h3 className="font-bold text-slate-900 text-base group-hover:text-teal-700 transition line-clamp-1 mb-1">
+            <h3 className="font-bold text-slate-900 text-base group-hover:text-teal-700 transition line-clamp-1 mb-0.5">
               {listing.name}
             </h3>
           </Link>
 
-          <p className="text-xs text-slate-500 line-clamp-1 mb-3">
+          <p className="text-xs text-slate-500 line-clamp-1 mb-2.5">
             {listing.landmark}
           </p>
 
-          {/* Amenity & Commute highlights */}
-          <div className="flex flex-wrap items-center gap-2 text-xs text-slate-600 mb-4 py-2 border-y border-slate-100">
+          {/* Amenity highlights */}
+          <div className="flex flex-wrap items-center gap-1.5 text-xs text-slate-600 mb-3 py-1.5 border-y border-slate-100">
             {listing.amenities?.wifi && (
               <span className="flex items-center gap-1 bg-slate-50 px-2 py-0.5 rounded text-[11px]">
-                <Wifi className="w-3 h-3 text-slate-500" /> Fiber Wi-Fi
+                <Wifi className="w-3 h-3 text-slate-500" /> Wi-Fi
               </span>
             )}
             {listing.amenities?.ac && (
@@ -140,34 +140,33 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
                 <Wind className="w-3 h-3 text-teal-600" /> AC
               </span>
             )}
-            <span className="flex items-center gap-1 bg-slate-50 px-2 py-0.5 rounded text-[11px]">
-              <Utensils className="w-3 h-3 text-amber-600" /> {listing.food_plan}
+            <span className="flex items-center gap-1 bg-slate-50 px-2 py-0.5 rounded text-[11px] truncate">
+              <Utensils className="w-3 h-3 text-amber-600 shrink-0" /> {listing.food_plan}
             </span>
           </div>
         </div>
 
-        {/* Pricing Section (Crystal Clear Breakdown) */}
+        {/* Pricing Section (Clean & Non-overlapping) */}
         <div>
-          <div className="flex items-baseline justify-between mb-1">
+          <div className="flex items-baseline justify-between gap-2 mb-1">
             <div>
-              <span className="text-xl font-bold text-slate-900">
+              <span className="text-xl font-bold text-slate-900 tracking-tight">
                 ₹{listing.monthly_rent_inr.toLocaleString('en-IN')}
               </span>
-              <span className="text-xs text-slate-500 font-medium"> / month</span>
+              <span className="text-xs text-slate-500 font-medium"> / mo</span>
             </div>
-            <div className="text-right text-[11px] text-slate-500">
-              Deposit: <span className="font-medium text-slate-700">₹{listing.security_deposit_inr.toLocaleString('en-IN')}</span>
+            <div className="text-right text-[11px] text-slate-500 shrink-0">
+              Deposit: <span className="font-semibold text-slate-700">₹{listing.security_deposit_inr.toLocaleString('en-IN')}</span>
             </div>
           </div>
 
-          <div className="flex items-center justify-between text-[11px] text-slate-400 mb-4">
-            <span>Extra: Elec ~₹{listing.electricity_charge_inr} • Maint ~₹{listing.maintenance_charge_inr}</span>
-            <span>{listing.distance_to_metro_km} km to Metro</span>
+          <div className="flex items-center justify-between text-[11px] text-slate-500 mb-3 gap-2">
+            <span className="truncate">Bills: ~₹{listing.electricity_charge_inr + listing.maintenance_charge_inr}/mo</span>
+            <span className="shrink-0 font-medium text-slate-600">{listing.distance_to_metro_km} km to Metro</span>
           </div>
 
           {/* Action Row */}
           <div className="flex items-center gap-2 pt-2 border-t border-slate-100">
-            {/* Compare Checkbox */}
             <button
               onClick={handleCompareClick}
               className={`flex-1 flex items-center justify-center gap-1 text-xs py-2 px-2.5 rounded-lg border font-medium transition ${
@@ -176,11 +175,10 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
                   : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
             >
-              <Layers className="w-3.5 h-3.5" />
-              {isCompared ? 'Compared' : 'Compare'}
+              <Layers className="w-3.5 h-3.5 shrink-0" />
+              <span>{isCompared ? 'Added' : 'Compare'}</span>
             </button>
 
-            {/* View Details CTA */}
             <Link
               to={`/pgs/${listing.id}`}
               className="flex-1 text-center bg-slate-900 hover:bg-teal-700 text-white text-xs font-semibold py-2 px-3 rounded-lg transition"
