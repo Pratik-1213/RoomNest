@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "abfa9bc2-f974-4770-ab95-67d7f8db1bcc",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "NestHive PG",
+    "slug": "nesthive-pg-aundh-0",
+    "city": "Pune",
+    "locality": "Aundh",
+    "landmark": "Near Aundh Metro / High Street",
+    "address_masked": "Aundh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Aundh, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 5700,
+    "security_deposit_inr": 51600,
+    "electricity_charge_inr": 710,
+    "maintenance_charge_inr": 250,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "12:00 AM",
+    "total_beds": 67,
+    "available_beds": 11,
+    "distance_to_it_park_km": 0.49,
+    "distance_to_metro_km": 1.9,
+    "average_rating": 3.7,
+    "review_count": 20,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100001",
+    "photos": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": false,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Aundh IT Park / Commercial Zone",
+        "distance_km": 0.49,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Aundh Metro Station",
+        "distance_km": 1.9,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "e9f9c5aa-cf80-413a-abc1-129a51895b77",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StaySphere PG",
+    "slug": "staysphere-pg-baner-1",
+    "city": "Pune",
+    "locality": "Baner",
+    "landmark": "Near Baner Metro / High Street",
+    "address_masked": "Baner, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Baner, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 12200,
+    "security_deposit_inr": 15500,
+    "electricity_charge_inr": 300,
+    "maintenance_charge_inr": 1060,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 40,
+    "available_beds": 19,
+    "distance_to_it_park_km": 4.38,
+    "distance_to_metro_km": 0.68,
+    "average_rating": 4.4,
+    "review_count": 12,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100002",
+    "photos": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Baner IT Park / Commercial Zone",
+        "distance_km": 4.38,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Baner Metro Station",
+        "distance_km": 0.68,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "2d853e02-6831-403b-b8e1-c7be62a3b0f0",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "WorkNest PG",
+    "slug": "worknest-pg-hadapsar-2",
+    "city": "Pune",
+    "locality": "Hadapsar",
+    "landmark": "Near Hadapsar Metro / High Street",
+    "address_masked": "Hadapsar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hadapsar, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 12200,
+    "security_deposit_inr": 23100,
+    "electricity_charge_inr": 650,
+    "maintenance_charge_inr": 510,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 43,
+    "available_beds": 3,
+    "distance_to_it_park_km": 2.33,
+    "distance_to_metro_km": 0.86,
+    "average_rating": 4.7,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100003",
+    "photos": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hadapsar IT Park / Commercial Zone",
+        "distance_km": 2.33,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hadapsar Metro Station",
+        "distance_km": 0.86,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "f200233b-235b-48a9-94bf-ba3efd00c772",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "EasyLiving PG",
+    "slug": "easyliving-pg-pimple nilakh-3",
+    "city": "Pune",
+    "locality": "Pimple Nilakh",
+    "landmark": "Near Pimple Nilakh Metro / High Street",
+    "address_masked": "Pimple Nilakh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Pimple Nilakh, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 13200,
+    "security_deposit_inr": 37600,
+    "electricity_charge_inr": 880,
+    "maintenance_charge_inr": 460,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 23,
+    "available_beds": 13,
+    "distance_to_it_park_km": 0.77,
+    "distance_to_metro_km": 1.37,
+    "average_rating": 4.5,
+    "review_count": 11,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100004",
+    "photos": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Pimple Nilakh IT Park / Commercial Zone",
+        "distance_km": 0.77,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Pimple Nilakh Metro Station",
+        "distance_km": 1.37,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "37b57772-d10f-4737-99f8-f056b1478d0d",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "ComfortStay PG",
+    "slug": "comfortstay-pg-shivajinagar-4",
+    "city": "Pune",
+    "locality": "Shivajinagar",
+    "landmark": "Near Shivajinagar Metro / High Street",
+    "address_masked": "Shivajinagar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Shivajinagar, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 15800,
+    "security_deposit_inr": 12900,
+    "electricity_charge_inr": 470,
+    "maintenance_charge_inr": 1050,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 91,
+    "available_beds": 4,
+    "distance_to_it_park_km": 9.97,
+    "distance_to_metro_km": 0.31,
+    "average_rating": 3.8,
+    "review_count": 20,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100005",
+    "photos": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Shivajinagar IT Park / Commercial Zone",
+        "distance_km": 9.97,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Shivajinagar Metro Station",
+        "distance_km": 0.31,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "ec0522b7-2b0b-4085-8ba2-559ae62301a5",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "NestHive PG",
+    "slug": "nesthive-pg-wakad-5",
+    "city": "Pune",
+    "locality": "Wakad",
+    "landmark": "Near Wakad Metro / High Street",
+    "address_masked": "Wakad, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Wakad, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 7100,
+    "security_deposit_inr": 7500,
+    "electricity_charge_inr": 620,
+    "maintenance_charge_inr": 580,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 34,
+    "available_beds": 7,
+    "distance_to_it_park_km": 1.06,
+    "distance_to_metro_km": 2.24,
+    "average_rating": 4.3,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100006",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": false,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Wakad IT Park / Commercial Zone",
+        "distance_km": 1.06,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Wakad Metro Station",
+        "distance_km": 2.24,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "e7de1a2a-e8f5-4413-9f4d-c022aa623820",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "PrimeStay PG",
+    "slug": "primestay-pg-hadapsar-6",
+    "city": "Pune",
+    "locality": "Hadapsar",
+    "landmark": "Near Hadapsar Metro / High Street",
+    "address_masked": "Hadapsar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hadapsar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 12700,
+    "security_deposit_inr": 46600,
+    "electricity_charge_inr": 1160,
+    "maintenance_charge_inr": 730,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 16,
+    "available_beds": 7,
+    "distance_to_it_park_km": 3.43,
+    "distance_to_metro_km": 2.4,
+    "average_rating": 4.4,
+    "review_count": 22,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100007",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hadapsar IT Park / Commercial Zone",
+        "distance_km": 3.43,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hadapsar Metro Station",
+        "distance_km": 2.4,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "bd2e6652-e339-43be-bcbb-52f48243c0ff",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "ComfortStay PG",
+    "slug": "comfortstay-pg-baner-7",
+    "city": "Pune",
+    "locality": "Baner",
+    "landmark": "Near Baner Metro / High Street",
+    "address_masked": "Baner, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Baner, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 16500,
+    "security_deposit_inr": 24500,
+    "electricity_charge_inr": 1100,
+    "maintenance_charge_inr": 540,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "12:00 AM",
+    "total_beds": 79,
+    "available_beds": 12,
+    "distance_to_it_park_km": 3.8,
+    "distance_to_metro_km": 2.17,
+    "average_rating": 3.5,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100008",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Baner IT Park / Commercial Zone",
+        "distance_km": 3.8,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Baner Metro Station",
+        "distance_km": 2.17,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "3ca007ca-b80a-486d-bc65-c8f317fddb74",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StudentHub PG",
+    "slug": "studenthub-pg-baner-8",
+    "city": "Pune",
+    "locality": "Baner",
+    "landmark": "Near Baner Metro / High Street",
+    "address_masked": "Baner, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Baner, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Four Sharing"
+    ],
+    "monthly_rent_inr": 8200,
+    "security_deposit_inr": 34400,
+    "electricity_charge_inr": 1050,
+    "maintenance_charge_inr": 590,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 15,
+    "available_beds": 1,
+    "distance_to_it_park_km": 1.51,
+    "distance_to_metro_km": 1.24,
+    "average_rating": 3.6,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100009",
+    "photos": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": false,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Baner IT Park / Commercial Zone",
+        "distance_km": 1.51,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Baner Metro Station",
+        "distance_km": 1.24,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "34bee968-8b4b-49dc-939f-d30ebe63f185",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "UrbanNest PG",
+    "slug": "urbannest-pg-kondhwa-9",
+    "city": "Pune",
+    "locality": "Kondhwa",
+    "landmark": "Near Kondhwa Metro / High Street",
+    "address_masked": "Kondhwa, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kondhwa, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 9100,
+    "security_deposit_inr": 27100,
+    "electricity_charge_inr": 750,
+    "maintenance_charge_inr": 850,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 35,
+    "available_beds": 6,
+    "distance_to_it_park_km": 0.64,
+    "distance_to_metro_km": 1.89,
+    "average_rating": 3.7,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100010",
+    "photos": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": false,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kondhwa IT Park / Commercial Zone",
+        "distance_km": 0.64,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kondhwa Metro Station",
+        "distance_km": 1.89,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "b0719ddc-a784-4a4b-9fb8-be47f09cbbae",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StaySphere PG",
+    "slug": "staysphere-pg-magarpatta-10",
+    "city": "Pune",
+    "locality": "Magarpatta",
+    "landmark": "Near Magarpatta Metro / High Street",
+    "address_masked": "Magarpatta, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Magarpatta, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Four Sharing"
+    ],
+    "monthly_rent_inr": 15000,
+    "security_deposit_inr": 15800,
+    "electricity_charge_inr": 1020,
+    "maintenance_charge_inr": 510,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "12:00 AM",
+    "total_beds": 86,
+    "available_beds": 19,
+    "distance_to_it_park_km": 4.58,
+    "distance_to_metro_km": 2.13,
+    "average_rating": 3.8,
+    "review_count": 20,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100011",
+    "photos": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Magarpatta IT Park / Commercial Zone",
+        "distance_km": 4.58,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Magarpatta Metro Station",
+        "distance_km": 2.13,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "52a0e71a-4721-491b-88ec-93d27e6c3f48",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "PrimeStay PG",
+    "slug": "primestay-pg-balewadi-11",
+    "city": "Pune",
+    "locality": "Balewadi",
+    "landmark": "Near Balewadi Metro / High Street",
+    "address_masked": "Balewadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Balewadi, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 7500,
+    "security_deposit_inr": 16700,
+    "electricity_charge_inr": 1260,
+    "maintenance_charge_inr": 290,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 50,
+    "available_beds": 5,
+    "distance_to_it_park_km": 3.23,
+    "distance_to_metro_km": 0.83,
+    "average_rating": 5.0,
+    "review_count": 16,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100012",
+    "photos": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Balewadi IT Park / Commercial Zone",
+        "distance_km": 3.23,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Balewadi Metro Station",
+        "distance_km": 0.83,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "3de1a680-ee87-4747-8c37-bce578238eee",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "EasyLiving PG",
+    "slug": "easyliving-pg-magarpatta-12",
+    "city": "Pune",
+    "locality": "Magarpatta",
+    "landmark": "Near Magarpatta Metro / High Street",
+    "address_masked": "Magarpatta, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Magarpatta, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 11600,
+    "security_deposit_inr": 21100,
+    "electricity_charge_inr": 1230,
+    "maintenance_charge_inr": 1120,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 10,
+    "available_beds": 5,
+    "distance_to_it_park_km": 2.9,
+    "distance_to_metro_km": 5.05,
+    "average_rating": 4.1,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100013",
+    "photos": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Magarpatta IT Park / Commercial Zone",
+        "distance_km": 2.9,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Magarpatta Metro Station",
+        "distance_km": 5.05,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "f1c04c45-590b-466f-8c04-5b46d0e3b273",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StudentHub PG",
+    "slug": "studenthub-pg-hinjewadi-13",
+    "city": "Pune",
+    "locality": "Hinjewadi",
+    "landmark": "Near Hinjewadi Metro / High Street",
+    "address_masked": "Hinjewadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hinjewadi, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 12200,
+    "security_deposit_inr": 28600,
+    "electricity_charge_inr": 850,
+    "maintenance_charge_inr": 510,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "12:00 AM",
+    "total_beds": 56,
+    "available_beds": 4,
+    "distance_to_it_park_km": 1.99,
+    "distance_to_metro_km": 0.41,
+    "average_rating": 3.4,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100014",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hinjewadi IT Park / Commercial Zone",
+        "distance_km": 1.99,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hinjewadi Metro Station",
+        "distance_km": 0.41,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "779797d4-c3da-4137-a8eb-5f68035cc5ec",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StaySphere PG",
+    "slug": "staysphere-pg-kharadi-14",
+    "city": "Pune",
+    "locality": "Kharadi",
+    "landmark": "Near Kharadi Metro / High Street",
+    "address_masked": "Kharadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kharadi, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 8000,
+    "security_deposit_inr": 16000,
+    "electricity_charge_inr": 1260,
+    "maintenance_charge_inr": 350,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 77,
+    "available_beds": 1,
+    "distance_to_it_park_km": 2.67,
+    "distance_to_metro_km": 1.26,
+    "average_rating": 3.1,
+    "review_count": 20,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100015",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kharadi IT Park / Commercial Zone",
+        "distance_km": 2.67,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kharadi Metro Station",
+        "distance_km": 1.26,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "bb0101c4-5b3a-4f6f-b782-f1e3cc5b47ad",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "ComfortStay PG",
+    "slug": "comfortstay-pg-hadapsar-15",
+    "city": "Pune",
+    "locality": "Hadapsar",
+    "landmark": "Near Hadapsar Metro / High Street",
+    "address_masked": "Hadapsar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hadapsar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 11700,
+    "security_deposit_inr": 24000,
+    "electricity_charge_inr": 450,
+    "maintenance_charge_inr": 740,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 24,
+    "available_beds": 9,
+    "distance_to_it_park_km": 0.42,
+    "distance_to_metro_km": 2.65,
+    "average_rating": 4.0,
+    "review_count": 11,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100016",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hadapsar IT Park / Commercial Zone",
+        "distance_km": 0.42,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hadapsar Metro Station",
+        "distance_km": 2.65,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "294ca146-f217-408d-add4-14c3590531e8",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "UrbanRooms PG",
+    "slug": "urbanrooms-pg-wakad-16",
+    "city": "Pune",
+    "locality": "Wakad",
+    "landmark": "Near Wakad Metro / High Street",
+    "address_masked": "Wakad, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Wakad, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 7200,
+    "security_deposit_inr": 20200,
+    "electricity_charge_inr": 810,
+    "maintenance_charge_inr": 860,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 50,
+    "available_beds": 11,
+    "distance_to_it_park_km": 1.7,
+    "distance_to_metro_km": 1.94,
+    "average_rating": 4.1,
+    "review_count": 19,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100017",
+    "photos": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Wakad IT Park / Commercial Zone",
+        "distance_km": 1.7,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Wakad Metro Station",
+        "distance_km": 1.94,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "5e7b599e-f58f-4380-bc68-32955b0e2d49",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "ComfortStay PG",
+    "slug": "comfortstay-pg-kharadi-17",
+    "city": "Pune",
+    "locality": "Kharadi",
+    "landmark": "Near Kharadi Metro / High Street",
+    "address_masked": "Kharadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kharadi, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 9000,
+    "security_deposit_inr": 24200,
+    "electricity_charge_inr": 1270,
+    "maintenance_charge_inr": 660,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 80,
+    "available_beds": 19,
+    "distance_to_it_park_km": 1.36,
+    "distance_to_metro_km": 3.65,
+    "average_rating": 4.0,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100018",
+    "photos": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kharadi IT Park / Commercial Zone",
+        "distance_km": 1.36,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kharadi Metro Station",
+        "distance_km": 3.65,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "ec31424d-1714-44c7-89f7-201abef25062",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "PrimeStay PG",
+    "slug": "primestay-pg-nibm-18",
+    "city": "Pune",
+    "locality": "NIBM",
+    "landmark": "Near NIBM Metro / High Street",
+    "address_masked": "NIBM, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, NIBM, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 7900,
+    "security_deposit_inr": 31400,
+    "electricity_charge_inr": 850,
+    "maintenance_charge_inr": 620,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 23,
+    "available_beds": 19,
+    "distance_to_it_park_km": 1.74,
+    "distance_to_metro_km": 2.81,
+    "average_rating": 3.7,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100019",
+    "photos": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "NIBM IT Park / Commercial Zone",
+        "distance_km": 1.74,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "NIBM Metro Station",
+        "distance_km": 2.81,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "d096818e-1102-447f-8db7-e9ca66d0e44d",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CoLiveNest PG",
+    "slug": "colivenest-pg-wakad-19",
+    "city": "Pune",
+    "locality": "Wakad",
+    "landmark": "Near Wakad Metro / High Street",
+    "address_masked": "Wakad, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Wakad, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 14100,
+    "security_deposit_inr": 15400,
+    "electricity_charge_inr": 1070,
+    "maintenance_charge_inr": 550,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 65,
+    "available_beds": 17,
+    "distance_to_it_park_km": 0.6,
+    "distance_to_metro_km": 3.35,
+    "average_rating": 4.3,
+    "review_count": 23,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100020",
+    "photos": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": false,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Wakad IT Park / Commercial Zone",
+        "distance_km": 0.6,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Wakad Metro Station",
+        "distance_km": 3.35,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "2f32cab2-7196-4d03-a233-ec3dc2e576f6",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "GreenNest PG",
+    "slug": "greennest-pg-bavdhan-20",
+    "city": "Pune",
+    "locality": "Bavdhan",
+    "landmark": "Near Bavdhan Metro / High Street",
+    "address_masked": "Bavdhan, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Bavdhan, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 24700,
+    "security_deposit_inr": 15700,
+    "electricity_charge_inr": 1250,
+    "maintenance_charge_inr": 860,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 92,
+    "available_beds": 18,
+    "distance_to_it_park_km": 4.66,
+    "distance_to_metro_km": 3.43,
+    "average_rating": 3.5,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100021",
+    "photos": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Bavdhan IT Park / Commercial Zone",
+        "distance_km": 4.66,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Bavdhan Metro Station",
+        "distance_km": 3.43,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "edd07566-ff01-4c68-a793-28b15c44c82a",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CoLiveNest PG",
+    "slug": "colivenest-pg-nibm-21",
+    "city": "Pune",
+    "locality": "NIBM",
+    "landmark": "Near NIBM Metro / High Street",
+    "address_masked": "NIBM, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, NIBM, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 8000,
+    "security_deposit_inr": 7500,
+    "electricity_charge_inr": 340,
+    "maintenance_charge_inr": 380,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 20,
+    "available_beds": 3,
+    "distance_to_it_park_km": 8.26,
+    "distance_to_metro_km": 4.05,
+    "average_rating": 4.8,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100022",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "NIBM IT Park / Commercial Zone",
+        "distance_km": 8.26,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "NIBM Metro Station",
+        "distance_km": 4.05,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "c438488f-bade-4c18-8e66-0f9f6aedbf92",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StaySphere PG",
+    "slug": "staysphere-pg-kharadi-22",
+    "city": "Pune",
+    "locality": "Kharadi",
+    "landmark": "Near Kharadi Metro / High Street",
+    "address_masked": "Kharadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kharadi, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 17600,
+    "security_deposit_inr": 9800,
+    "electricity_charge_inr": 1400,
+    "maintenance_charge_inr": 580,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 37,
+    "available_beds": 2,
+    "distance_to_it_park_km": 0.65,
+    "distance_to_metro_km": 3.93,
+    "average_rating": 4.0,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100023",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kharadi IT Park / Commercial Zone",
+        "distance_km": 0.65,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kharadi Metro Station",
+        "distance_km": 3.93,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "7fc4adfd-c825-4f85-80e7-bc748a776788",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "MetroNest PG",
+    "slug": "metronest-pg-koregaon park-23",
+    "city": "Pune",
+    "locality": "Koregaon Park",
+    "landmark": "Near Koregaon Park Metro / High Street",
+    "address_masked": "Koregaon Park, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Koregaon Park, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 12700,
+    "security_deposit_inr": 16600,
+    "electricity_charge_inr": 750,
+    "maintenance_charge_inr": 600,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "12:00 AM",
+    "total_beds": 57,
+    "available_beds": 18,
+    "distance_to_it_park_km": 4.85,
+    "distance_to_metro_km": 2.27,
+    "average_rating": 4.1,
+    "review_count": 25,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100024",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Koregaon Park IT Park / Commercial Zone",
+        "distance_km": 4.85,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Koregaon Park Metro Station",
+        "distance_km": 2.27,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "02b150df-3b1a-4fa4-ae51-7ee82c0a22ee",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "ComfortStay PG",
+    "slug": "comfortstay-pg-pimple nilakh-24",
+    "city": "Pune",
+    "locality": "Pimple Nilakh",
+    "landmark": "Near Pimple Nilakh Metro / High Street",
+    "address_masked": "Pimple Nilakh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Pimple Nilakh, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 6000,
+    "security_deposit_inr": 15900,
+    "electricity_charge_inr": 940,
+    "maintenance_charge_inr": 240,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 38,
+    "available_beds": 5,
+    "distance_to_it_park_km": 0.45,
+    "distance_to_metro_km": 2.1,
+    "average_rating": 4.1,
+    "review_count": 20,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100025",
+    "photos": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Pimple Nilakh IT Park / Commercial Zone",
+        "distance_km": 0.45,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Pimple Nilakh Metro Station",
+        "distance_km": 2.1,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "24291395-4e0c-45c7-968c-a2c8469daacb",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "StaySphere PG",
+    "slug": "staysphere-pg-pimple nilakh-25",
+    "city": "Pune",
+    "locality": "Pimple Nilakh",
+    "landmark": "Near Pimple Nilakh Metro / High Street",
+    "address_masked": "Pimple Nilakh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Pimple Nilakh, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 9800,
+    "security_deposit_inr": 8500,
+    "electricity_charge_inr": 780,
+    "maintenance_charge_inr": 1090,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 32,
+    "available_beds": 16,
+    "distance_to_it_park_km": 0.62,
+    "distance_to_metro_km": 1.21,
+    "average_rating": 3.0,
+    "review_count": 14,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100026",
+    "photos": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Pimple Nilakh IT Park / Commercial Zone",
+        "distance_km": 0.62,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Pimple Nilakh Metro Station",
+        "distance_km": 1.21,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "71d0aa41-7904-403e-8469-1caddfc13cbd",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CityNest PG",
+    "slug": "citynest-pg-koregaon park-26",
+    "city": "Pune",
+    "locality": "Koregaon Park",
+    "landmark": "Near Koregaon Park Metro / High Street",
+    "address_masked": "Koregaon Park, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Koregaon Park, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 6300,
+    "security_deposit_inr": 26600,
+    "electricity_charge_inr": 450,
+    "maintenance_charge_inr": 730,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 41,
+    "available_beds": 11,
+    "distance_to_it_park_km": 3.57,
+    "distance_to_metro_km": 0.62,
+    "average_rating": 4.9,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100027",
+    "photos": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Koregaon Park IT Park / Commercial Zone",
+        "distance_km": 3.57,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Koregaon Park Metro Station",
+        "distance_km": 0.62,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "a7278902-e50d-4f1e-89df-b9f2fb6a6dad",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "NestHive PG",
+    "slug": "nesthive-pg-aundh-27",
+    "city": "Pune",
+    "locality": "Aundh",
+    "landmark": "Near Aundh Metro / High Street",
+    "address_masked": "Aundh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Aundh, Pune 411057",
+    "gender_policy": "Co-ed",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 11700,
+    "security_deposit_inr": 15200,
+    "electricity_charge_inr": 540,
+    "maintenance_charge_inr": 620,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 80,
+    "available_beds": 14,
+    "distance_to_it_park_km": 0.62,
+    "distance_to_metro_km": 4.44,
+    "average_rating": 3.2,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100028",
+    "photos": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Aundh IT Park / Commercial Zone",
+        "distance_km": 0.62,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Aundh Metro Station",
+        "distance_km": 4.44,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "d386b5eb-1472-486c-8e63-b7532428b1a5",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "PrimeStay PG",
+    "slug": "primestay-pg-pimple saudagar-28",
+    "city": "Pune",
+    "locality": "Pimple Saudagar",
+    "landmark": "Near Pimple Saudagar Metro / High Street",
+    "address_masked": "Pimple Saudagar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Pimple Saudagar, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 5800,
+    "security_deposit_inr": 20200,
+    "electricity_charge_inr": 930,
+    "maintenance_charge_inr": 420,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 56,
+    "available_beds": 18,
+    "distance_to_it_park_km": 3.4,
+    "distance_to_metro_km": 0.87,
+    "average_rating": 4.3,
+    "review_count": 18,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100030",
+    "photos": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Pimple Saudagar IT Park / Commercial Zone",
+        "distance_km": 3.4,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Pimple Saudagar Metro Station",
+        "distance_km": 0.87,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "7119076d-b196-45c2-8b58-102d31a9b91f",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "GreenNest PG",
+    "slug": "greennest-pg-kalyani nagar-29",
+    "city": "Pune",
+    "locality": "Kalyani Nagar",
+    "landmark": "Near Kalyani Nagar Metro / High Street",
+    "address_masked": "Kalyani Nagar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kalyani Nagar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 15200,
+    "security_deposit_inr": 13400,
+    "electricity_charge_inr": 750,
+    "maintenance_charge_inr": 550,
+    "food_plan": "All Meals",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 13,
+    "available_beds": 1,
+    "distance_to_it_park_km": 0.98,
+    "distance_to_metro_km": 0.27,
+    "average_rating": 4.3,
+    "review_count": 12,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100031",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kalyani Nagar IT Park / Commercial Zone",
+        "distance_km": 0.98,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kalyani Nagar Metro Station",
+        "distance_km": 0.27,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "48821d69-05a2-437b-a90e-66363f1670e1",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "EasyLiving PG",
+    "slug": "easyliving-pg-nibm-30",
+    "city": "Pune",
+    "locality": "NIBM",
+    "landmark": "Near NIBM Metro / High Street",
+    "address_masked": "NIBM, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, NIBM, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 14600,
+    "security_deposit_inr": 13000,
+    "electricity_charge_inr": 450,
+    "maintenance_charge_inr": 800,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 53,
+    "available_beds": 1,
+    "distance_to_it_park_km": 3.76,
+    "distance_to_metro_km": 3.23,
+    "average_rating": 3.1,
+    "review_count": 13,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100032",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "NIBM IT Park / Commercial Zone",
+        "distance_km": 3.76,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "NIBM Metro Station",
+        "distance_km": 3.23,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "5913545b-6f01-4717-86a0-bb39606ed65f",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "UrbanNest PG",
+    "slug": "urbannest-pg-viman nagar-31",
+    "city": "Pune",
+    "locality": "Viman Nagar",
+    "landmark": "Near Viman Nagar Metro / High Street",
+    "address_masked": "Viman Nagar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Viman Nagar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Four Sharing"
+    ],
+    "monthly_rent_inr": 12200,
+    "security_deposit_inr": 12900,
+    "electricity_charge_inr": 1100,
+    "maintenance_charge_inr": 590,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 64,
+    "available_beds": 6,
+    "distance_to_it_park_km": 4.35,
+    "distance_to_metro_km": 3.28,
+    "average_rating": 3.8,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100034",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Viman Nagar IT Park / Commercial Zone",
+        "distance_km": 4.35,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Viman Nagar Metro Station",
+        "distance_km": 3.28,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "6304029e-1176-42c3-9d5b-8fe39e16f402",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "WorkNest PG",
+    "slug": "worknest-pg-magarpatta-32",
+    "city": "Pune",
+    "locality": "Magarpatta",
+    "landmark": "Near Magarpatta Metro / High Street",
+    "address_masked": "Magarpatta, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Magarpatta, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 17500,
+    "security_deposit_inr": 15900,
+    "electricity_charge_inr": 830,
+    "maintenance_charge_inr": 560,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 38,
+    "available_beds": 9,
+    "distance_to_it_park_km": 0.73,
+    "distance_to_metro_km": 1.59,
+    "average_rating": 4.5,
+    "review_count": 26,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100035",
+    "photos": [
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Magarpatta IT Park / Commercial Zone",
+        "distance_km": 0.73,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Magarpatta Metro Station",
+        "distance_km": 1.59,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "f5d14c3b-20df-4266-86a1-c5fff6bab14b",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CityNest PG",
+    "slug": "citynest-pg-baner-33",
+    "city": "Pune",
+    "locality": "Baner",
+    "landmark": "Near Baner Metro / High Street",
+    "address_masked": "Baner, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Baner, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 13200,
+    "security_deposit_inr": 7800,
+    "electricity_charge_inr": 790,
+    "maintenance_charge_inr": 920,
+    "food_plan": "No Food",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 93,
+    "available_beds": 13,
+    "distance_to_it_park_km": 2.33,
+    "distance_to_metro_km": 1.73,
+    "average_rating": 4.3,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100036",
+    "photos": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Baner IT Park / Commercial Zone",
+        "distance_km": 2.33,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Baner Metro Station",
+        "distance_km": 1.73,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "5fd5ac90-ea2f-413f-b8bf-d8b1e537b0fc",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "MetroNest PG",
+    "slug": "metronest-pg-hadapsar-34",
+    "city": "Pune",
+    "locality": "Hadapsar",
+    "landmark": "Near Hadapsar Metro / High Street",
+    "address_masked": "Hadapsar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hadapsar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 8700,
+    "security_deposit_inr": 9400,
+    "electricity_charge_inr": 1040,
+    "maintenance_charge_inr": 1060,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 60,
+    "available_beds": 3,
+    "distance_to_it_park_km": 1.09,
+    "distance_to_metro_km": 1.2,
+    "average_rating": 5.0,
+    "review_count": 25,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100037",
+    "photos": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hadapsar IT Park / Commercial Zone",
+        "distance_km": 1.09,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hadapsar Metro Station",
+        "distance_km": 1.2,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "2c5f9bd9-8bb1-4d68-af32-a44ecaa48259",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CoLiveNest PG",
+    "slug": "colivenest-pg-shivajinagar-35",
+    "city": "Pune",
+    "locality": "Shivajinagar",
+    "landmark": "Near Shivajinagar Metro / High Street",
+    "address_masked": "Shivajinagar, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Shivajinagar, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Single"
+    ],
+    "monthly_rent_inr": 18300,
+    "security_deposit_inr": 8900,
+    "electricity_charge_inr": 750,
+    "maintenance_charge_inr": 610,
+    "food_plan": "Breakfast Only",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 99,
+    "available_beds": 8,
+    "distance_to_it_park_km": 3.99,
+    "distance_to_metro_km": 4.99,
+    "average_rating": 3.8,
+    "review_count": 17,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100038",
+    "photos": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Shivajinagar IT Park / Commercial Zone",
+        "distance_km": 3.99,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Shivajinagar Metro Station",
+        "distance_km": 4.99,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "c7ad6999-b793-4a73-b490-48fb20e22086",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "GreenNest PG",
+    "slug": "greennest-pg-nibm-36",
+    "city": "Pune",
+    "locality": "NIBM",
+    "landmark": "Near NIBM Metro / High Street",
+    "address_masked": "NIBM, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, NIBM, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 14500,
+    "security_deposit_inr": 12600,
+    "electricity_charge_inr": 730,
+    "maintenance_charge_inr": 500,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 33,
+    "available_beds": 12,
+    "distance_to_it_park_km": 3.96,
+    "distance_to_metro_km": 0.63,
+    "average_rating": 4.1,
+    "review_count": 15,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100040",
+    "photos": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "NIBM IT Park / Commercial Zone",
+        "distance_km": 3.96,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "NIBM Metro Station",
+        "distance_km": 0.63,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "6402c039-13b2-49fd-b528-ef403d94c919",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "EasyLiving PG",
+    "slug": "easyliving-pg-hinjewadi-37",
+    "city": "Pune",
+    "locality": "Hinjewadi",
+    "landmark": "Near Hinjewadi Metro / High Street",
+    "address_masked": "Hinjewadi, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Hinjewadi, Pune 411057",
+    "gender_policy": "Female Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 8900,
+    "security_deposit_inr": 20100,
+    "electricity_charge_inr": 810,
+    "maintenance_charge_inr": 790,
+    "food_plan": "Two Meals (Breakfast + Dinner)",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Semi Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 33,
+    "available_beds": 9,
+    "distance_to_it_park_km": 1.1,
+    "distance_to_metro_km": 1.47,
+    "average_rating": 4.7,
+    "review_count": 12,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100041",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": true,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Hinjewadi IT Park / Commercial Zone",
+        "distance_km": 1.1,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Hinjewadi Metro Station",
+        "distance_km": 1.47,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "da5d6dc8-37ed-4ef2-8b8c-a940c58e4ca6",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "CoLiveNest PG",
+    "slug": "colivenest-pg-pimple nilakh-38",
+    "city": "Pune",
+    "locality": "Pimple Nilakh",
+    "landmark": "Near Pimple Nilakh Metro / High Street",
+    "address_masked": "Pimple Nilakh, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Pimple Nilakh, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Triple Sharing"
+    ],
+    "monthly_rent_inr": 6000,
+    "security_deposit_inr": 22600,
+    "electricity_charge_inr": 880,
+    "maintenance_charge_inr": 1020,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "10:00 PM",
+    "total_beds": 71,
+    "available_beds": 16,
+    "distance_to_it_park_km": 3.62,
+    "distance_to_metro_km": 3.04,
+    "average_rating": 4.1,
+    "review_count": 24,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100042",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": false,
+      "parking": true,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Pimple Nilakh IT Park / Commercial Zone",
+        "distance_km": 3.62,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Pimple Nilakh Metro Station",
+        "distance_km": 3.04,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  },
+  {
+    "id": "65d7c15f-fcce-45e3-b898-29a5d8ce28dd",
+    "owner_id": "00000000-0000-0000-0000-000000000002",
+    "owner_name": "Suresh Patil (Verified Partner)",
+    "owner_phone": "+91 98220 14890",
+    "name": "UrbanNest PG",
+    "slug": "urbannest-pg-kondhwa-39",
+    "city": "Pune",
+    "locality": "Kondhwa",
+    "landmark": "Near Kondhwa Metro / High Street",
+    "address_masked": "Kondhwa, Near Main Ring Road, Pune",
+    "full_address": "Flat 302, Green Acres Residency, Near Bank of Maharashtra, Kondhwa, Pune 411057",
+    "gender_policy": "Male Only",
+    "room_types": [
+      "Double Sharing"
+    ],
+    "monthly_rent_inr": 9900,
+    "security_deposit_inr": 8600,
+    "electricity_charge_inr": 830,
+    "maintenance_charge_inr": 870,
+    "food_plan": "Breakfast + Dinner",
+    "food_type": "Veg & Non-Veg Options",
+    "furnishing": "Fully Furnished",
+    "curfew_time": "11:00 PM",
+    "total_beds": 68,
+    "available_beds": 8,
+    "distance_to_it_park_km": 2.76,
+    "distance_to_metro_km": 1.86,
+    "average_rating": 4.2,
+    "review_count": 23,
+    "status": "active",
+    "is_demo": true,
+    "external_demo_id": "100043",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": {
+      "wifi": true,
+      "ac": false,
+      "laundry": true,
+      "parking": false,
+      "power_backup": true,
+      "cctv": true,
+      "attached_washroom": true,
+      "ro_water": true
+    },
+    "proximity": [
+      {
+        "landmark_name": "Kondhwa IT Park / Commercial Zone",
+        "distance_km": 2.76,
+        "commute_time_mins": 10
+      },
+      {
+        "landmark_name": "Kondhwa Metro Station",
+        "distance_km": 1.86,
+        "commute_time_mins": 6
+      },
+      {
+        "landmark_name": "COEP / Pune University Campus",
+        "distance_km": 6.5,
+        "commute_time_mins": 20
+      }
+    ]
+  }
+]
