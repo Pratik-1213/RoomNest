@@ -37,27 +37,27 @@ export const ModelEvaluationDashboardPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Academic Header Banner */}
-      <div className="bg-gradient-to-r from-slate-900 via-teal-950 to-slate-900 text-white rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-sm relative overflow-hidden">
+      <div className="bg-gradient-to-r from-teal-50/80 via-white to-emerald-50/70 text-slate-900 rounded-2xl p-6 sm:p-8 border border-teal-200/80 shadow-sm relative overflow-hidden">
         <div className="max-w-3xl space-y-3 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/15 text-teal-300 border border-teal-500/30 text-xs font-semibold">
-            <BookOpen className="w-3.5 h-3.5 text-teal-400" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-100/70 text-teal-900 border border-teal-200 text-xs font-semibold">
+            <BookOpen className="w-3.5 h-3.5 text-teal-700" />
             {academic_meta.institution} • {academic_meta.course}
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-            AI Models Evaluation & Data Visualization Studio
+          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
+            Machine Learning Evaluation & Data Visualization Studio
           </h1>
-          <p className="text-sm text-slate-300 leading-relaxed">
+          <p className="text-sm text-slate-600 leading-relaxed font-normal">
             Rigorous statistical evaluation and visualization matrices for all 4 RoomNest production ML models. Trained on an augmented 100,000-record dataset with 5-fold cross-validation, confusion matrices, ROC/PR curves, residual distributions, and feature attribution.
           </p>
           <div className="flex flex-wrap gap-2.5 pt-1 text-xs">
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <Database className="w-3.5 h-3.5 text-teal-400" /> 100,000 Augmented Dataset Records
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <Database className="w-3.5 h-3.5 text-teal-600" /> 100,000 Augmented Dataset Records
             </span>
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <Cpu className="w-3.5 h-3.5 text-emerald-400" /> 4 Specialized Architectures
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <Cpu className="w-3.5 h-3.5 text-emerald-600" /> 4 Specialized Architectures
             </span>
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <ShieldCheck className="w-3.5 h-3.5 text-purple-400" /> 5-Fold Stratified Cross-Validation
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <ShieldCheck className="w-3.5 h-3.5 text-indigo-600" /> 5-Fold Stratified Cross-Validation
             </span>
           </div>
         </div>

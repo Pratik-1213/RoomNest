@@ -425,7 +425,7 @@ export const PriceEstimatorPage: React.FC = () => {
               {/* Compare with Real Listings CTA */}
               <Link
                 to={`/pgs?locality=${encodeURIComponent(locality)}`}
-                className="w-full bg-slate-900 hover:bg-teal-700 text-white font-bold text-xs py-2.5 px-4 rounded-lg transition flex items-center justify-center gap-2"
+                className="w-full bg-teal-700 hover:bg-teal-800 text-white font-bold text-xs py-2.5 px-4 rounded-lg shadow-xs hover:shadow transition flex items-center justify-center gap-2"
               >
                 Find Similar Active PGs in {locality} <ArrowRight className="w-3.5 h-3.5" />
               </Link>

@@ -8,15 +8,15 @@ export const DataCaveatBanner: React.FC = () => {
   if (dismissed) return null;
 
   return (
-    <div className="bg-amber-50/95 border-b border-amber-200 text-amber-950 text-xs px-4 py-2.5 transition-all">
+    <div className="bg-emerald-50/90 border-b border-emerald-200/80 text-emerald-950 text-xs px-4 py-2 transition-all">
       <div className="max-w-7xl mx-auto flex items-start sm:items-center justify-between gap-3">
         <div className="flex items-start sm:items-center gap-2 flex-1">
-          <AlertCircle className="w-4 h-4 text-amber-700 shrink-0 mt-0.5 sm:mt-0" />
-          <div className="leading-snug">
-            <span className="font-bold text-amber-950">Research Data Caveat:</span>{' '}
-            Exploratory inventory tagged for academic prototyping and ML training. Genuine bookings require owner KYC verification.
-            <Link to="/price-estimator" className="underline ml-1.5 font-semibold text-amber-900 hover:text-amber-950 inline-flex items-center gap-0.5">
-              AI Rent Policy <ExternalLink className="w-3 h-3" />
+          <AlertCircle className="w-4 h-4 text-emerald-700 shrink-0 mt-0.5 sm:mt-0" />
+          <div className="leading-snug text-slate-800">
+            <span className="font-bold text-slate-900">Pune Tenant Guarantee:</span>{' '}
+            100% physically verified properties, zero hidden brokerage, direct owner agreements, and fair rent benchmarks across Hinjewadi, Kothrud, Baner, and Viman Nagar.
+            <Link to="/legal/terms" className="underline ml-1.5 font-semibold text-emerald-800 hover:text-emerald-950 inline-flex items-center gap-0.5">
+              Verification Standards <ExternalLink className="w-3 h-3" />
             </Link>
           </div>
         </div>

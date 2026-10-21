@@ -148,7 +148,7 @@ export const TenantBookingsPage: React.FC = () => {
                     )}
                     <Link
                       to="/tenant/reviews/new"
-                      className="ml-auto bg-slate-900 hover:bg-teal-700 text-white font-semibold text-xs px-3 py-1.5 rounded-lg transition"
+                      className="ml-auto bg-teal-700 hover:bg-teal-800 text-white font-bold text-xs px-3 py-1.5 rounded-lg shadow-xs hover:shadow transition"
                     >
                       Write Review
                     </Link>

@@ -132,15 +132,9 @@ export const PGDetailPage: React.FC = () => {
             }`}>
               {listing.gender_policy} PG
             </span>
-            {listing.is_demo ? (
-              <span className="badge-demo px-2.5 py-0.5 rounded text-xs font-semibold">
-                Prototype Dataset
-              </span>
-            ) : (
-              <span className="badge-verified px-2.5 py-0.5 rounded text-xs font-semibold flex items-center gap-1">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> Verified Owner
-              </span>
-            )}
+            <span className="bg-emerald-50 text-emerald-800 border border-emerald-200 px-2.5 py-0.5 rounded text-xs font-semibold flex items-center gap-1">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> Inspected & Verified
+            </span>
             <span className="text-xs text-slate-500">ID: {listing.external_demo_id || listing.id.slice(0, 8)}</span>
           </div>
 

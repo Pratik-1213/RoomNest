@@ -135,7 +135,7 @@ export const TenantDashboardPage: React.FC = () => {
                   </div>
                   <Link
                     to="/tenant/reviews/new"
-                    className="bg-slate-900 hover:bg-teal-700 text-white font-semibold px-3 py-1.5 rounded-lg transition"
+                    className="bg-teal-700 hover:bg-teal-800 text-white font-bold px-3 py-1.5 rounded-lg shadow-xs hover:shadow transition"
                   >
                     Leave Review
                   </Link>

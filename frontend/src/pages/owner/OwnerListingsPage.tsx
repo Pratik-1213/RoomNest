@@ -124,7 +124,7 @@ export const OwnerListingsPage: React.FC = () => {
               <div className="flex items-center gap-2">
                 <Link
                   to={`/pgs/${l.id}`}
-                  className="bg-slate-900 hover:bg-teal-700 text-white font-semibold px-3 py-2 rounded-lg transition"
+                  className="bg-teal-700 hover:bg-teal-800 text-white font-bold px-3 py-2 rounded-lg shadow-xs hover:shadow transition"
                 >
                   Preview
                 </Link>

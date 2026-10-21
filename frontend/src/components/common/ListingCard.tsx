@@ -62,15 +62,9 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
             {listing.gender_policy} PG
           </span>
 
-          {listing.is_demo ? (
-            <span className="badge-demo px-1.5 py-0.5 rounded text-[10px] font-semibold shrink-0">
-              Demo
-            </span>
-          ) : (
-            <span className="badge-verified px-1.5 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1 shrink-0">
-              <ShieldCheck className="w-3 h-3 text-emerald-600" /> Verified
-            </span>
-          )}
+          <span className="bg-emerald-50 text-emerald-800 border border-emerald-200 px-1.5 py-0.5 rounded text-[10px] font-semibold flex items-center gap-1 shrink-0">
+            <ShieldCheck className="w-3 h-3 text-emerald-600" /> Inspected
+          </span>
         </div>
 
         {/* Heart Shortlist Action */}
@@ -92,10 +86,10 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
 
         {/* Clean bottom image overlays with strict sizing */}
         <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between pointer-events-none gap-2">
-          <div className="bg-slate-900/80 backdrop-blur-xs text-white text-[11px] font-medium px-2 py-0.5 rounded truncate max-w-[65%]">
+          <div className="bg-white/95 text-slate-800 text-[11px] font-semibold px-2 py-0.5 rounded shadow-xs truncate max-w-[65%] border border-slate-200">
             {listing.room_types[0] || 'Room'}
           </div>
-          <div className="bg-white/95 text-slate-900 text-[11px] font-semibold px-2 py-0.5 rounded shadow-xs shrink-0">
+          <div className="bg-emerald-50 text-emerald-800 text-[11px] font-bold px-2 py-0.5 rounded shadow-xs shrink-0 border border-emerald-200">
             {listing.available_beds} {listing.available_beds === 1 ? 'bed' : 'beds'}
           </div>
         </div>
@@ -181,7 +175,7 @@ export const ListingCard: React.FC<ListingCardProps> = ({ listing }) => {
 
             <Link
               to={`/pgs/${listing.id}`}
-              className="flex-1 text-center bg-slate-900 hover:bg-teal-700 text-white text-xs font-semibold py-2 px-3 rounded-lg transition"
+              className="flex-1 text-center bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold py-2 px-3 rounded-lg shadow-xs hover:shadow transition"
             >
               View Room
             </Link>

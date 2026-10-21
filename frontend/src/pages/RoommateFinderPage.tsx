@@ -390,28 +390,28 @@ export const RoommateFinderPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
       {/* Hero Header */}
-      <div className="bg-gradient-to-r from-teal-900 via-slate-900 to-slate-950 text-white rounded-2xl p-6 sm:p-8 shadow-sm relative overflow-hidden border border-slate-800">
+      <div className="bg-gradient-to-r from-teal-50/80 via-white to-emerald-50/70 text-slate-900 rounded-2xl p-6 sm:p-8 shadow-sm relative overflow-hidden border border-teal-200/80">
         <div className="max-w-3xl space-y-3 relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 text-teal-300 border border-teal-500/20 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-            Model #2: AI Roommate Compatibility & Co-Living Matchmaker
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-100/70 text-teal-900 border border-teal-200 text-xs font-semibold">
+            <Sparkles className="w-3.5 h-3.5 text-teal-700" />
+            Pune Co-Living Compatibility & Flatmate Matchmaker
           </div>
-          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+          <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900">
             Find Your Ideal Pune PG Roommate
           </h1>
-          <p className="text-sm text-slate-300 leading-relaxed">
+          <p className="text-sm text-slate-600 leading-relaxed font-normal">
             Co-living works best when sleep cycles, study hours, food preferences, and cleanliness habits align.
-            Our trained Random Forest model calculates a compatibility score (0–100%) between two individuals and helps you pair up for a single Pune PG or hostel room.
+            Compare your profile against active Pune seekers or evaluate mutual compatibility before reserving a shared room.
           </p>
-          <div className="flex flex-wrap gap-3 pt-2 text-xs">
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> 10 Behavioral & Lifestyle Vectors
+          <div className="flex flex-wrap gap-2.5 pt-1 text-xs">
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> 10 Behavioral & Lifestyle Vectors
             </span>
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <Zap className="w-3.5 h-3.5 text-amber-400" /> Hobby & Schedule Synergy
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <Zap className="w-3.5 h-3.5 text-amber-600" /> Hobby & Schedule Synergy
             </span>
-            <span className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded border border-slate-700 text-slate-300">
-              <Building2 className="w-3.5 h-3.5 text-teal-400" /> Direct 2-Sharing PG Pairing
+            <span className="flex items-center gap-1.5 bg-white/95 px-3 py-1.5 rounded-lg border border-slate-200 text-slate-700 font-medium shadow-xs">
+              <Building2 className="w-3.5 h-3.5 text-teal-600" /> Direct 2-Sharing PG Pairing
             </span>
           </div>
         </div>

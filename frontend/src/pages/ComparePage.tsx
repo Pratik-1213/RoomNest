@@ -266,7 +266,7 @@ export const ComparePage: React.FC = () => {
                 <td key={item.id} className="p-4">
                   <Link
                     to={`/pgs/${item.id}`}
-                    className="block text-center bg-slate-900 hover:bg-teal-700 text-white font-semibold text-xs py-2 px-3 rounded-lg transition"
+                    className="block text-center bg-teal-700 hover:bg-teal-800 text-white font-bold text-xs py-2 px-3 rounded-lg shadow-xs hover:shadow transition"
                   >
                     View Details
                   </Link>
