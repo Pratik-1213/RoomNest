@@ -192,6 +192,9 @@ python train_all_models.py
 
 # Launch FastAPI microservice on port 8001:
 python -m uvicorn app:app --port 8001 --reload
+
+# Run Automated Test Suite:
+pytest tests
 ```
 - Interactive Swagger UI: **`http://127.0.0.1:8001/docs`**
 - Health Check: **`http://127.0.0.1:8001/health`**
